@@ -24,6 +24,8 @@ shows the generated required cube, privileged cube and transition type
 prime implicant generation part still in processing. 
 
 use Visual studio 2017 to run this program
+
 input file name is input.txt
+
 output file name is output.txt
 
