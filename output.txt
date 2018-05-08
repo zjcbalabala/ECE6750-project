@@ -1,0 +1,16 @@
+  print variables a b c x y 
+  sate initial conditions 
+ 0   0   0   1   0  
+ 0   1   1   0   0  
+ 1   1   1   0   0  
+ 1   1   0   1   1  
+required cube for this BM machine is
+!a -!c x !y  + !a !b -x !y  + a b -x y  + -b !c x y  + a b -x y  + !a -!c x !y  + !a !b -x !y  + 
+privileged cube for this BM machine is
+!a ---!y  + !a !b !c !x !y  + a b --- + -b --- + !a !b !c !x !y  + !a ---!y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + !a !b !c !x !y  + 
+transition 1 is dynamic 1 to 0 transition from state 0 to state 1
+transition 2 is static 0 to 0 transition from state 1 to state 2
+transition 3 is dynamic 0 to 1 transition from state 2 to state 3
+transition 4 is dynamic 1 to 0 transition from state 3 to state 1
+transition 5 is static 0 to 0 transition from state 2 to state 4
+transition 6 is dynamic 0 to 1 transition from state 4 to state 0
